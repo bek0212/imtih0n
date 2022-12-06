@@ -1,0 +1,329 @@
+.section__container1 {
+    max-width: 1280px;
+    flex-wrap: wrap;
+    height: 456px;
+    border: 1px solid #000;
+    margin: 50px auto;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+    justify-content: space-around;
+
+    .container1__btn {
+        position: absolute;
+        max-width: 184px;
+        height: 36px;
+        left: 30px;
+        top: 20px;
+        color: white;
+        background: #FF6B6B;
+        flex-wrap: wrap;
+        border-radius: 5px;
+        text-transform: uppercase;
+    }
+
+    .container1__block__img {
+        max-width: 604px;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+  
+        flex-wrap: wrap;
+    }
+
+
+
+
+    .container1__card {
+        max-width: 612px;
+        height: 100%;
+  
+        flex-wrap: wrap;
+
+
+        .card__title {
+            font-family: 'Raleway';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 47px;
+            color: #01384D;
+        }
+
+        .lissing {
+            max-width: 612px;
+            height: 100px;
+      
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-between;
+
+            .lissing__list {
+                display: flex;
+                list-style: none;
+
+                .lissing__item {
+                    flex-wrap: wrap;
+                    padding: 10px 40px;
+
+
+                    .lissing__spn2 {
+                        font-family: 'Raleway';
+                        flex-wrap: wrap;
+                        font-style: normal;
+                        font-weight: 900;
+                        font-size: 20px;
+                        line-height: 35px;
+                        width: 100px;
+                    }
+                }
+            }
+        }
+
+        .card__text {
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 16px;
+            max-width: 606px;
+            flex-wrap: wrap;
+            line-height: 25px;
+            height: 78px;
+            flex-wrap: wrap;
+            color: #01384D;
+            margin-top: 20px;
+            opacity: 0.6;
+        }
+
+        .lissing__fot {
+            max-width: 210px;
+            height: 150px;
+      
+            flex-wrap: wrap;
+            margin-top: 50px;
+
+
+            .fot__item {
+                list-style-type: none;
+                flex-wrap: wrap;
+
+                .fot__narxi {
+                    font-family: 'Raleway';
+                    font-style: normal;
+                    font-weight: 400;
+                    flex-wrap: wrap;
+                    font-size: 16px;
+                    line-height: 19px;
+                    color: #01384D;
+                    opacity: 0.6;
+                    padding: 5px 0px;
+                }
+
+                .fot__raqam {
+                    font-family: 'Raleway';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 30px;
+                    flex-wrap: wrap;
+                    line-height: 35px;
+                    color: #01384D;
+                }
+
+                .for__btnn {
+                    background: #FFFFFF;
+                    border: 2px solid #01384D;
+                    border-radius: 5px;
+                    font-weight: 500;
+                    padding: 5px 30px;
+                    font-size: 16px;
+                    margin-top: 30px;
+                    flex-wrap: wrap;
+                    line-height: 19px;
+                }
+            }
+        }
+
+
+
+
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 640px){
+
+    .section__container1 {
+        max-width: 1280px;
+        flex-wrap: wrap;
+        height: 456px;
+  
+        margin: 50px auto;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        position: relative;
+        justify-content: space-around;
+    
+        .container1__btn {
+            position: absolute;
+            max-width: 184px;
+            height: 36px;
+            left: 30px;
+            top: 20px;
+            color: white;
+            background: #FF6B6B;
+            flex-wrap: wrap;
+            border-radius: 5px;
+            text-transform: uppercase;
+        }
+    
+        .container1__block__img {
+            max-width: 604px;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+      
+            flex-wrap: wrap;
+        }
+    
+    
+    
+    
+        .container1__card {
+            max-width: 612px;
+            height: 100%;
+      
+            flex-wrap: wrap;
+    
+    
+            .card__title {
+                font-family: 'Raleway';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 40px;
+                line-height: 47px;
+                color: #01384D;
+            }
+    
+            .lissing {
+                max-width: 612px;
+                height: 100px;
+          
+                display: flex;
+                flex-wrap: wrap;
+                align-items: center;
+                justify-content: space-between;
+    
+                .lissing__list {
+                    display: flex;
+                    list-style: none;
+    
+                    .lissing__item {
+                        flex-wrap: wrap;
+                        padding: 10px 30px;
+
+    
+    
+                        .lissing__spn2 {
+                            font-family: 'Raleway';
+                            flex-wrap: wrap;
+                            font-style: normal;
+                            font-weight: 900;
+                            font-size: 20px;
+                            line-height: 35px;
+                            width: 100px;
+                        }
+                    }
+                }
+            }
+    
+            .card__text {
+                font-family: 'Open Sans';
+                font-style: normal;
+                font-weight: 300;
+                font-size: 16px;
+                max-width: 606px;
+                flex-wrap: wrap;
+                line-height: 25px;
+                height: 78px;
+                flex-wrap: wrap;
+                color: #01384D;
+                margin-top: 20px;
+                opacity: 0.6;
+            }
+    
+            .lissing__fot {
+                max-width: 210px;
+                height: 150px;
+          
+                flex-wrap: wrap;
+                margin-top: 50px;
+    
+    
+                .fot__item {
+                    list-style-type: none;
+                    flex-wrap: wrap;
+    
+                    .fot__narxi {
+                        font-family: 'Raleway';
+                        font-style: normal;
+                        font-weight: 400;
+                        flex-wrap: wrap;
+                        font-size: 16px;
+                        line-height: 19px;
+                        color: #01384D;
+                        opacity: 0.6;
+                        padding: 5px 0px;
+                    }
+    
+                    .fot__raqam {
+                        font-family: 'Raleway';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 30px;
+                        flex-wrap: wrap;
+                        line-height: 35px;
+                        color: #01384D;
+                    }
+    
+                    .for__btnn {
+                        background: #FFFFFF;
+                        border: 2px solid #01384D;
+                        border-radius: 5px;
+                        font-weight: 500;
+                        padding: 5px 30px;
+                        font-size: 16px;
+                        margin-top: 30px;
+                        flex-wrap: wrap;
+                        line-height: 19px;
+                    }
+                }
+            }
+    
+    
+    
+    
+        }
+    
+    
+    }
+
+
+} 

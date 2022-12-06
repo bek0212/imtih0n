@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all 0.8s;
+}
+body{
+    background-color: rgb(228, 214, 214);
+}
+.container__father01 {
+    position: relative;
+    max-width: 1920px;
+    height: 7825px;
+    margin: auto;
+
+   
+    background-color: #fff;
+    z-index: -1;
+    .ramkabg{
+        max-width: 100%;
+        height: 650px;
+        background-color: #EABF9F;
+        .container__father__ramka {
+            position: relative;
+            max-width: 1420px;
+            height: 7825px;
+        
+            margin: auto;
+            z-index: 2;
+           
+        }
+    }
+
+}
+
+

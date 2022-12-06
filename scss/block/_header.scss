@@ -1,0 +1,385 @@
+.header__main {
+    max-width: 1420px;
+    height: 640px;
+    background-color: #EABF9F;
+    position: relative;
+
+    .header__list__box {
+        max-width: 1420px;
+        height: 50px;
+  
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+
+        .box__list {
+            display: flex;
+            justify-content: flex-end;
+        }
+
+
+        .box__list__item {
+            display: flex;
+            margin-right: 30px;
+        }
+    }
+
+
+
+
+    // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+
+    .nav__cont {
+        max-width: 1420px;
+        height: 80px;
+  
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+
+        .mobile__header {
+            display: none;
+        }
+
+        .header__list {
+            display: flex;
+
+
+            .header__tel__inp {
+                display: flex;
+
+                .header__tel__btn {
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 19px;
+                    padding: 10px 20px;
+                    border-radius: 5px;
+                }
+
+                .header__tell {
+                    text-decoration-line: none;
+                    padding: 10px 30px;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 18px;
+                    line-height: 21px;
+                    color: #01384D;
+                }
+            }
+        }
+    }
+
+    // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+    .max__title2 {
+        width: 735px;
+        height: 210px;
+  
+        font-weight: 800;
+        font-size: 90px;
+        line-height: 105px;
+        color: #01384D;
+        margin-top: 60px;
+    }
+
+    .header__btn__kategoriya {
+        font-weight: 500;
+        font-size: 26px;
+        line-height: 19px;
+        padding: 20px 40px;
+        border-radius: 5px;
+        margin-top: 50px;
+    }
+    .header__divan{
+        float: right;
+        margin-top: 100px;
+    }
+}
+@media (max-width: 1380px){
+    .header__main {
+        .header__divan{
+            display: none;
+        }
+    }
+
+}
+@media (max-width: 700px){
+
+    .header__main {
+        max-width: 1420px;
+        height: 940px;
+  
+        background-color: #EABF9F;
+        position: relative;
+    
+        .header__list__box {
+         display: none  ;
+    
+            .box__list {
+                display: flex;
+                justify-content: flex-end;
+            }
+    
+    
+            .box__list__item {
+                display: flex;
+                margin-right: 30px;
+            }
+        }
+    
+    
+    
+    
+        // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+    
+    
+        .nav__cont {
+            max-width: 1420px;
+            height: 80px;
+      
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+    
+            .mobile__header {
+                display: block;
+                max-width: 80%;
+            }
+            .header__dream{
+                display: none;
+            }
+    
+            .header__list {
+                display: none;
+    
+    
+                .header__tel__inp {
+                    display: flex;
+    
+                    .header__tel__btn {
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 16px;
+                        line-height: 19px;
+                        padding: 10px 20px;
+                        border-radius: 5px;
+                    }
+    
+                    .header__tell {
+                        text-decoration-line: none;
+                        padding: 10px 30px;
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 18px;
+                        line-height: 21px;
+                        color: #01384D;
+                    }
+                }
+            }
+        }
+    
+        // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+    
+        .max__title2 {
+            max-width: 435px;
+            height: 210px;
+      
+            font-weight: 800;
+            font-size: 50px;
+           line-height: 60px;
+            color: #01384D;
+            margin-top: 60px;
+        }
+    
+        .header__btn__kategoriya {
+            font-weight: 500;
+            font-size: 26px;
+            line-height: 19px;
+            padding: 20px 70px;
+            border-radius: 5px;
+            margin-top: 400px;
+        }
+        .header__divan{
+            display: block;
+            float: left;
+            margin-top: 100px;
+            position: absolute;
+            top: 300px;
+            object-fit: contain;
+            max-width: 500px;
+        }
+    }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 515px){
+
+    .header__main {
+        max-width: 1420px;
+        height: 940px;
+  
+        background-color: #EABF9F;
+        position: relative;
+    
+        .header__list__box {
+         display: none  ;
+    
+            .box__list {
+                display: flex;
+                justify-content: flex-end;
+            }
+    
+    
+            .box__list__item {
+                display: flex;
+                margin-right: 30px;
+            }
+        }
+    
+    
+    
+    
+        // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+    
+    
+        .nav__cont {
+            max-width: 1420px;
+            height: 80px;
+      
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+    
+            .mobile__header {
+                display: block;
+                max-width: 80%;
+            }
+            .header__dream{
+                display: none;
+            }
+    
+            .header__list {
+                display: none;
+    
+    
+                .header__tel__inp {
+                    display: flex;
+    
+                    .header__tel__btn {
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 16px;
+                        line-height: 19px;
+                        padding: 10px 20px;
+                        border-radius: 5px;
+                    }
+    
+                    .header__tell {
+                        text-decoration-line: none;
+                        padding: 10px 30px;
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 18px;
+                        line-height: 21px;
+                        color: #01384D;
+                    }
+                }
+            }
+        }
+    
+        // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+    
+        .max__title2 {
+            max-width: 235px;
+            height: 210px;
+      
+            font-weight: 800;
+            font-size: 30px;
+            font-family: cursive;
+           line-height: 60px;
+            color: #01384D;
+            margin-top: 60px;
+        }
+    
+        .header__btn__kategoriya {
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 19px;
+            padding: 20px 70px;
+            border-radius: 5px;
+            margin-top: 400px;
+        }
+        .header__divan{
+            display: block;
+            float: left;
+            margin-top: 100px;
+            position: absolute;
+            top: 300px;
+            object-fit: contain;
+            max-width: 300px;
+        }
+    }
+
+
+
+}
+@media (max-width: 312px){
+    .header__btn__kategoriya{
+        width: 60px;
+        font-size: 1px;
+        .katspan{
+            font-size: 15px;
+            font-weight: 800;
+            margin-left: -55px;
+        }
+    }
+    .header__divan{
+        display: block;
+        float: left;
+        margin-top: 100px;
+        position: absolute;
+        top: 300px;
+        object-fit: contain;
+        width: 270px;
+    }
+}
+@media (max-width: 274px){
+    .header__btn__kategoriya{
+        width: 60px;
+        font-size: 1px;
+        .katspan{
+            font-size: 15px;
+            font-weight: 800;
+            margin-left: -55px;
+        }
+    }
+    .header__divan{
+        display: block;
+        float: left;
+        margin-top: 100px;
+        position: absolute;
+        top: 300px;
+        object-fit: contain;
+        width: 200px;
+    }
+
+}
+
+
+
